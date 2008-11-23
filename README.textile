@@ -1,0 +1,19 @@
+h1. XboxTools
+
+This library is a simple set of view helpers to easily include Xbox related items on your site.
+
+h2. Installation
+
+	gem install mwhuss-xbox_tools --source http://gems.github.com
+	
+h2. Usage
+
+	require 'xbox_tools'
+
+	<%= image_tag xbox_avatar_url('the_gamer_tag') %>
+	<%= image_tag xbox_avatar_pic_url('the_gamer_tag')  %>
+	<%= xbox_gamercard('the_gamer_tag') %>
+	
+h2. Support
+
+I literally busted this out in 20 minutes. Please feel free to add functionality and new features, pull requests are welcome!
