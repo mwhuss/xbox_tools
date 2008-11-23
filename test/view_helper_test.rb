@@ -17,7 +17,7 @@ class ViewHelperTest < Test::Unit::TestCase
   
   def test_xbox_gamercard
     # Need to require actionview in the tests
-    #assert_equal "", xbox_gamercard(@gamertag)
+    assert_equal "<iframe frameBorder=\"0\" height=\"140\" scrolling=\"no\" src=\"http://gamercard.xbox.com/#{@gamertag}.card\" width=\"204\">freefl0w</iframe>", xbox_gamercard(@gamertag)
   end
  
 end

@@ -1,5 +1,6 @@
 module XboxTools
   module ViewHelpers
+    include ActionView::Helpers::TagHelper
     
     def xbox_avatar_url(gamertag)
       "http://avatar.xboxlive.com/avatar/#{gamertag}/avatar-body.png"
