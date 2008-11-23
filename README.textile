@@ -5,6 +5,7 @@ This library is a simple set of view helpers to easily include Xbox related item
 h2. Installation
 
 	gem install mwhuss-xbox_tools --source http://gems.github.com
+	config.gem 'mwhuss-xbox_tools', :lib => 'xbox_tools', :source => 'http://gems.github.com'
 	
 h2. Usage
 
@@ -14,6 +15,6 @@ h2. Usage
 	<%= image_tag xbox_avatar_pic_url('the_gamer_tag')  %>
 	<%= xbox_gamercard('the_gamer_tag') %>
 	
-h2. Support
+h2. Contribute
 
 I literally busted this out in 20 minutes. Please feel free to add functionality and new features, pull requests are welcome!

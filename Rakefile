@@ -7,7 +7,7 @@ Echoe.new('xbox_tools', '0.0.1') do |p|
   p.url            = "http://github.com/mwhuss/xbox_tools"
   p.author         = "Marshall Huss"
   p.email          = "mwhuss@gmail.com"
-  p.ignore_pattern = ["pkg/"]
+  p.ignore_pattern = ["pkg/**/*"]
   p.development_dependencies = []
 end
 
