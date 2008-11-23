@@ -1,0 +1,10 @@
+CHANGELOG
+lib/xbox_tools/view_helpers.rb
+lib/xbox_tools.rb
+LICENSE
+Manifest
+Rakefile
+README.textile
+test/test_helper.rb
+test/view_helper_test.rb
+xbox_tools.gemspec
